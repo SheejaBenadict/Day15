@@ -1,0 +1,48 @@
+
+
+* {
+    padding: none;
+    /* margin-top: 10px; */
+    box-sizing: border-box;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+}
+
+.word {
+    opacity: 0;
+}
+
+.second {
+    text-align: center;
+    color: orange;
+    font-size: 1.3rem;
+    transition: all .5s ease-in;
+    transform: translateX(0.5rem);
+    opacity: 1;
+}
+
+.happy {
+    
+    color: orange;
+    text-shadow: 0 0 5px orange;
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.inde {
+    font-size: 4rem;
+    color: green;
+    text-shadow: 0 0 5px green;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.day {
+    color: blue;
+    text-shadow: 0 0 5px blue;
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 10px;
+}
